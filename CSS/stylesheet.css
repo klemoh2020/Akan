@@ -1,0 +1,108 @@
+body {
+    height: 100%;
+    background-image: url("https://i.pinimg.com/564x/f8/74/a4/f874a48eb6d5752b0574f623381fc10b.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   }
+.jumbotron {
+    height: 25px;
+    background-color: #16E2F5;
+    color: blue;
+    padding-top: 10px;
+    margin-bottom: 0;
+    border-radius: 50%;
+    }
+.container-fluid {
+    width: 50%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+p{ 
+    color: #333;
+    font: italic;
+    font-size: 24px;
+    font-weight: bold;
+}      
+.row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-style: italic;
+    }
+.card-title {
+    margin-bottom: 0.75rem;
+    margin-left: 22px;
+    }
+#Output-result {
+    height: 100px;
+    width: 100%;
+    padding-top: 17px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    background-color: transparent;
+    border: dotted rgb(0, 211, 28);
+    border-radius: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    color: blue;
+    font-style: italic;
+    text-align: center;
+    }
+
+.blink {
+    animation: blinker 1s linear infinite;
+    }
+    
+    @keyframes blinker {
+    50% {
+        opacity: 0.5;
+    }
+    }   
+h4 {
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+    background: turquoise;
+    }
+.fillForm {
+    align-content: center;
+    }
+.form {
+    width: 100%;
+    margin-left: 20px;
+    }
+.footer {
+    height: 25px;
+    width: 100%;
+    background-color: #16E2F5;
+    display: inline-flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-weight: 700;
+    }
+input[type="submit"]{
+    background-color: blue;
+    width: 20%;
+   }    
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-size: 24px;
+    font:bold;
+    color: blue;
+    }     
+@media screen and (min-width: 240px) {
+    body{background-color: honeydew;
+        
+    }
+    }
